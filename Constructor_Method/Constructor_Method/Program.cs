@@ -26,6 +26,7 @@ namespace Constructor_Method
         {
             Program prog = new Program(10.0);
             Console.WriteLine("Length of line : {0}", prog.getLength());
+
             prog.setLength(6.0);
             Console.WriteLine("Length of line : {0}", prog.getLength());
             Console.ReadKey();
